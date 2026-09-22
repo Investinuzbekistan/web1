@@ -1,0 +1,163 @@
+@import './tokens.css';
+@import 'tailwindcss';
+
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/manrope';
+
+/* Theme is a data attribute set before first paint by the inline script in
+   index.html, so `dark:` must follow that rather than the media query. */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Manrope Variable', 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+
+  /* Brand — measured from logo/, never invented here. */
+  --color-gold-300: #ecc37e;
+  --color-gold-400: #d7a762;
+  --color-gold-500: #c68a32;
+  --color-navy-900: #262261;
+
+  /* Neutrals and derived gold tones: scripts/build-neutrals.mjs.
+     The whole ramp sits on the gold's own hue (72.7°) at a chroma low enough to
+     read as neutral. Previously the surfaces were warm but the body and muted
+     text were cool violet-greys — warm paper under cool ink reads as muddy, and
+     it blunted the one contrast this page is built on, gold against navy.
+     The two gold tones and the two greys are solved for their target ratio
+     against paper-2, the darkest surface either sits on, so the ratio holds
+     everywhere. Every pair is checked by that script. */
+  --color-gold-600: #bc8025; /* 4.51:1 on paper-2 — AA for large text */
+  --color-gold-700: #9c6200; /* 4.51:1 on paper-2 — AA for body text */
+
+  --color-paper: #fefbf7;
+  --color-paper-2: #f8f1ea;
+  --color-card: #ffffff;
+  --color-line: #e6ded4;
+  --color-body: #575149; /* 7.0:1 on paper-2 */
+  --color-muted: #746e65; /* 4.51:1 on paper-2 */
+
+  /* Dark mode keeps its navy base; only the neutral steps were re-derived. */
+  --color-night: #150f26;
+  --color-night-2: #201933;
+  --color-night-line: #37314a;
+  --color-night-body: #c5c2d0; /* 9.61:1 on night-2 */
+  --color-night-muted: #938fa0; /* 5.35:1 on night-2 */
+
+  --radius-card: 14px;
+
+  --shadow-card: 0 1px 2px rgb(38 34 97 / 0.04), 0 8px 24px -12px rgb(38 34 97 / 0.14);
+  --shadow-raised: 0 2px 4px rgb(38 34 97 / 0.05), 0 18px 40px -18px rgb(38 34 97 / 0.22);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Sticky header height + breathing room, so anchors never land under the nav. */
+    scroll-padding-top: 6.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    /* Kill decorative motion outright rather than merely shortening it. */
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+
+  body {
+    @apply bg-paper text-body font-sans antialiased;
+    /* `clip`, not `hidden`: it suppresses sideways scrolling without creating a
+       scroll container, so the fixed header and scroll-margin anchors still work. */
+    overflow-x: clip;
+  }
+
+  [data-theme='dark'] body {
+    @apply bg-night text-night-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-navy-900;
+    text-wrap: balance;
+  }
+
+  [data-theme='dark'] :is(h1, h2, h3, h4) {
+    @apply text-white;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-gold-700 rounded-sm;
+  }
+
+  [data-theme='dark'] :focus-visible {
+    @apply outline-gold-400;
+  }
+
+  /* Uzbek Latin uses ʻ U+02BB and ʼ U+02BC; Inter carries both, but make sure
+     they never get substituted from a fallback with different metrics. */
+  :lang(uz) {
+    font-variant-ligatures: common-ligatures;
+  }
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-[1200px] px-5 sm:px-8;
+  }
+
+  .section {
+    @apply scroll-mt-28 py-16 md:py-24;
+  }
+
+  /* Where two sections share a surface the seam is invisible, and the two
+     paddings read as one dead band. A hairline makes the break deliberate. */
+  .section--seam {
+    @apply border-t border-line dark:border-night-line;
+  }
+
+  .eyebrow {
+    @apply font-display text-xs font-semibold uppercase tracking-[0.18em] text-gold-700;
+  }
+
+  [data-theme='dark'] .eyebrow {
+    @apply text-gold-400;
+  }
+
+  /* --radius-card / --shadow-card are declared in @theme, so Tailwind generates
+     `rounded-card` and `shadow-card` for them. */
+  .card {
+    @apply rounded-card border border-line bg-card shadow-card;
+  }
+
+  [data-theme='dark'] .card {
+    @apply border-night-line bg-night-2 shadow-none;
+  }
+
+  .rule-gold {
+    @apply h-px w-16 bg-gold-500;
+  }
+
+  /* Number plates: tabular so counters do not jitter while animating. */
+  .figure {
+    @apply font-display font-semibold text-navy-900 tabular-nums;
+    font-feature-settings: 'tnum' 1;
+  }
+
+  [data-theme='dark'] .figure {
+    @apply text-white;
+  }
+}

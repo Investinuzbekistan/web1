@@ -1,0 +1,1272 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "collected_at": "2026-09-21",
+    "note": "All figures collected from official/reliable sources on 2026-09-21. Every item references a source id from `sources`. Items with verify=true must be re-checked before public launch.",
+    "languages": [
+      "uz",
+      "ru",
+      "en"
+    ],
+    "default_language": "uz",
+    "disclaimer_enabled": true,
+    "ru_machine": true,
+    "ru_note": "Russian strings were translated from the English source text for this concept project and have not been reviewed by the Agency. Uzbek and English are as collected from the sources."
+  },
+  "organization": {
+    "short_name": "Invest Uzbekistan",
+    "name": {
+      "uz": "Oʻzbekiston Respublikasi Investitsiyalar, sanoat va savdo vazirligi huzuridagi Investitsiyalarni jalb qilish agentligi",
+      "en": "Investment Promotion Agency under the Ministry of Investment, Industry and Trade of the Republic of Uzbekistan",
+      "ru": "Агентство по привлечению инвестиций при Министерстве инвестиций, промышленности и торговли Республики Узбекистан"
+    },
+    "founded": 2019,
+    "legal_basis": {
+      "text": "Cabinet of Ministers Resolution No. 621 of 24.07.2019",
+      "url": "https://lex.uz/docs/4438440"
+    },
+    "tagline": {
+      "uz": "Xorijiy investorlar uchun yagona darcha (One-Stop-Shop)",
+      "en": "A One-Stop-Shop for foreign investors",
+      "ru": "Единое окно (One-Stop-Shop) для иностранных инвесторов"
+    },
+    "mission": {
+      "uz": "Xorijiy investorlarga Oʻzbekistondagi yangi biznes imkoniyatlarini topish va ulardan foydalanishda koʻmaklashish, davlat bilan asosiy aloqa nuqtasi boʻlib, investitsiya jarayonini soddalashtirish.",
+      "en": "To help foreign investors identify and leverage new business opportunities across sectors in Uzbekistan, acting as the primary point of contact with the state and simplifying the investment process.",
+      "ru": "Помогать иностранным инвесторам находить и использовать новые возможности для бизнеса в Узбекистане, выступая основной точкой контакта с государством и упрощая инвестиционный процесс."
+    },
+    "functions": [
+      {
+        "uz": "Xorijiy investitsiyalarni jalb qilish boʻyicha yagona davlat siyosatini amalga oshirishga koʻmaklashish va investorlar uchun qulay sharoit yaratish",
+        "en": "Supporting a unified state policy to attract foreign investment and creating favourable conditions for investors",
+        "ru": "Содействие реализации единой государственной политики по привлечению иностранных инвестиций и создание благоприятных условий для инвесторов"
+      },
+      {
+        "uz": "Xorijiy investorlarga axborot, huquqiy va boshqa koʻmak; davlat organlari va mahalliy biznes bilan hamkorlikni yoʻlga qoʻyish",
+        "en": "Information, legal and other support to foreign investors; facilitating cooperation with government bodies and local businesses",
+        "ru": "Информационная, правовая и иная поддержка иностранных инвесторов; налаживание взаимодействия с государственными органами и местным бизнесом"
+      },
+      {
+        "uz": "Istiqbolli investitsiya loyihalari bazasini yuritish va ularning borishini monitoring qilish",
+        "en": "Managing a database of promising investment projects and monitoring their progress",
+        "ru": "Ведение базы перспективных инвестиционных проектов и мониторинг их реализации"
+      },
+      {
+        "uz": "Oʻzbekistonning iqtisodiy va investitsiyaviy salohiyatini targʻib qilish, investorlar uchun imtiyozlar haqida xabardor qilish",
+        "en": "Promoting Uzbekistan's economic and investment potential and informing foreign business about investor incentives",
+        "ru": "Продвижение экономического и инвестиционного потенциала Узбекистана и информирование иностранного бизнеса о льготах для инвесторов"
+      },
+      {
+        "uz": "Oʻzbekistonning ijobiy xalqaro imijini mustahkamlash",
+        "en": "Enhancing Uzbekistan's positive international image",
+        "ru": "Укрепление позитивного международного имиджа Узбекистана"
+      }
+    ],
+    "services": [
+      {
+        "id": "info",
+        "icon": "file-search",
+        "uz": "Biznes muhiti va investitsiya shartlari haqida toʻliq maʼlumot",
+        "en": "Comprehensive business information and investment conditions",
+        "ru": "Полная информация о деловой среде и условиях инвестирования"
+      },
+      {
+        "id": "site",
+        "icon": "map-pin",
+        "uz": "Loyiha uchun eng maqbul joy va yer uchastkasini topishda yordam",
+        "en": "Help identifying and securing optimal locations and land",
+        "ru": "Помощь в подборе оптимальной площадки и земельного участка для проекта"
+      },
+      {
+        "id": "issues",
+        "icon": "life-buoy",
+        "uz": "Yuzaga kelgan muammolarni tezkor hal qilish",
+        "en": "Prompt resolution of emerging issues",
+        "ru": "Оперативное решение возникающих вопросов"
+      },
+      {
+        "id": "analytics",
+        "icon": "bar-chart-3",
+        "uz": "Tarmoq tahlillari va investitsiya hisobotlari",
+        "en": "Sectoral analysis and investment reports",
+        "ru": "Отраслевая аналитика и инвестиционные отчёты"
+      },
+      {
+        "id": "meetings",
+        "icon": "handshake",
+        "uz": "Davlat va mahalliy biznes rahbarlari bilan strategik uchrashuvlar tashkil etish",
+        "en": "Strategic meetings with government and local business leaders",
+        "ru": "Организация стратегических встреч с руководителями государственных органов и местного бизнеса"
+      }
+    ],
+    "contacts": {
+      "phone": "+998 (71) 202-02-10",
+      "phone_href": "tel:+998712020210",
+      "emails": [
+        "uzipa@invest.gov.uz",
+        "info@invest.gov.uz"
+      ],
+      "address": {
+        "uz": "Toshkent sh., Amir Temur koʻchasi, 13",
+        "en": "13 Amir Temur St., Tashkent",
+        "ru": "г. Ташкент, ул. Амира Темура, 13"
+      },
+      "map_url": "https://maps.app.goo.gl/NBU7opUt2fFn3oXC9",
+      "website": "https://invest.gov.uz"
+    },
+    "source": "S1"
+  },
+  "economy_2025": {
+    "source": "S2",
+    "as_of": "2025",
+    "kpis": [
+      {
+        "id": "gdp",
+        "value": 147,
+        "prefix": "~$",
+        "suffix": " bn",
+        "label": {
+          "uz": "Nominal YaIM (mlrd $)",
+          "en": "Nominal GDP",
+          "ru": "Номинальный ВВП (млрд $)"
+        }
+      },
+      {
+        "id": "gdp_growth",
+        "value": 7.7,
+        "suffix": "%",
+        "label": {
+          "uz": "Real YaIM oʻsishi",
+          "en": "Real GDP growth",
+          "ru": "Рост реального ВВП"
+        }
+      },
+      {
+        "id": "inflation",
+        "value": 7.3,
+        "suffix": "%",
+        "label": {
+          "uz": "Inflyatsiya",
+          "en": "Inflation",
+          "ru": "Инфляция"
+        }
+      },
+      {
+        "id": "industry_growth",
+        "value": 6.8,
+        "suffix": "%",
+        "label": {
+          "uz": "Sanoat ishlab chiqarishi oʻsishi",
+          "en": "Industrial production growth",
+          "ru": "Рост промышленного производства"
+        }
+      },
+      {
+        "id": "foreign_investment",
+        "value": 43.1,
+        "prefix": "$",
+        "suffix": " bn",
+        "label": {
+          "uz": "Xorijiy investitsiyalar oqimi",
+          "en": "Foreign investment inflows",
+          "ru": "Приток иностранных инвестиций"
+        }
+      },
+      {
+        "id": "trade",
+        "value": 81.2,
+        "prefix": "$",
+        "suffix": " bn",
+        "label": {
+          "uz": "Tashqi savdo aylanmasi",
+          "en": "Foreign trade turnover",
+          "ru": "Внешнеторговый оборот"
+        }
+      },
+      {
+        "id": "population_eoy",
+        "value": 38.2,
+        "suffix": " m",
+        "label": {
+          "uz": "Aholi (2025 yil oxiri)",
+          "en": "Population (end of 2025)",
+          "ru": "Население (на конец 2025 года)"
+        }
+      },
+      {
+        "id": "foreign_enterprises",
+        "value": 18164,
+        "label": {
+          "uz": "Xorijiy kapitalli korxonalar",
+          "en": "Enterprises with foreign capital",
+          "ru": "Предприятия с иностранным капиталом"
+        }
+      }
+    ],
+    "gdp_structure": [
+      {
+        "id": "services",
+        "share": 48.7,
+        "label": {
+          "uz": "Xizmatlar",
+          "en": "Services",
+          "ru": "Услуги"
+        },
+        "children": [
+          {
+            "label": {
+              "uz": "Savdo",
+              "en": "Trade",
+              "ru": "Торговля"
+            },
+            "share": 6.1
+          },
+          {
+            "label": {
+              "uz": "Turizm va mehmondoʻstlik",
+              "en": "Tourism & hospitality",
+              "ru": "Туризм и гостеприимство"
+            },
+            "share": 6.1
+          },
+          {
+            "label": {
+              "uz": "Transport va logistika",
+              "en": "Transport & logistics",
+              "ru": "Транспорт и логистика"
+            },
+            "share": 5.5
+          },
+          {
+            "label": {
+              "uz": "IT va aloqa",
+              "en": "IT & communications",
+              "ru": "ИТ и связь"
+            },
+            "share": 3
+          },
+          {
+            "label": {
+              "uz": "Boshqa xizmatlar",
+              "en": "Other services",
+              "ru": "Прочие услуги"
+            },
+            "share": 28
+          }
+        ]
+      },
+      {
+        "id": "industry",
+        "share": 26.8,
+        "label": {
+          "uz": "Sanoat",
+          "en": "Industry",
+          "ru": "Промышленность"
+        },
+        "children": [
+          {
+            "label": {
+              "uz": "Qayta ishlash sanoati",
+              "en": "Manufacturing",
+              "ru": "Обрабатывающая промышленность"
+            },
+            "share": 21.7
+          },
+          {
+            "label": {
+              "uz": "Togʻ-kon sanoati",
+              "en": "Mining & quarrying",
+              "ru": "Горнодобывающая промышленность"
+            },
+            "share": 2.8
+          },
+          {
+            "label": {
+              "uz": "Elektr, gaz, bugʻ taʼminoti",
+              "en": "Electricity, gas, steam",
+              "ru": "Электро-, газо- и теплоснабжение"
+            },
+            "share": 2.1
+          },
+          {
+            "label": {
+              "uz": "Suv taʼminoti va chiqindilar",
+              "en": "Water supply & waste",
+              "ru": "Водоснабжение и обращение с отходами"
+            },
+            "share": 0.2
+          }
+        ]
+      },
+      {
+        "id": "agriculture",
+        "share": 17.3,
+        "label": {
+          "uz": "Qishloq xoʻjaligi",
+          "en": "Agriculture",
+          "ru": "Сельское хозяйство"
+        },
+        "children": [
+          {
+            "label": {
+              "uz": "Dehqonchilik va chorvachilik",
+              "en": "Crop & animal production",
+              "ru": "Растениеводство и животноводство"
+            },
+            "share": 16.7
+          },
+          {
+            "label": {
+              "uz": "Oʻrmon xoʻjaligi",
+              "en": "Forestry",
+              "ru": "Лесное хозяйство"
+            },
+            "share": 0.5
+          },
+          {
+            "label": {
+              "uz": "Baliqchilik",
+              "en": "Fishing",
+              "ru": "Рыболовство"
+            },
+            "share": 0.2
+          }
+        ]
+      },
+      {
+        "id": "construction",
+        "share": 7.2,
+        "label": {
+          "uz": "Qurilish",
+          "en": "Construction",
+          "ru": "Строительство"
+        },
+        "children": [
+          {
+            "label": {
+              "uz": "Bino va inshootlar",
+              "en": "Buildings & structures",
+              "ru": "Здания и сооружения"
+            },
+            "share": 5.1
+          },
+          {
+            "label": {
+              "uz": "Muhandislik qurilishi",
+              "en": "Civil engineering",
+              "ru": "Инженерные сооружения"
+            },
+            "share": 1.4
+          },
+          {
+            "label": {
+              "uz": "Ixtisoslashgan qurilish",
+              "en": "Specialised construction",
+              "ru": "Специализированные строительные работы"
+            },
+            "share": 0.7
+          }
+        ]
+      }
+    ],
+    "growth_drivers": [
+      {
+        "id": "demography",
+        "value": "56%",
+        "label": {
+          "uz": "aholi mehnatga layoqatli yoshda",
+          "en": "of the population is of working age",
+          "ru": "населения в трудоспособном возрасте"
+        }
+      },
+      {
+        "id": "industrialization",
+        "value": "$89 bn",
+        "label": {
+          "uz": "sanoat mahsuloti; ~59,8 ming sanoat korxonasi",
+          "en": "industrial output; ~59.8k industrial enterprises",
+          "ru": "промышленной продукции; ~59,8 тыс. промышленных предприятий"
+        }
+      },
+      {
+        "id": "integration",
+        "value": "195+",
+        "label": {
+          "uz": "savdo hamkori mamlakatlar",
+          "en": "trading partner countries",
+          "ru": "стран — торговых партнёров"
+        }
+      }
+    ]
+  },
+  "human_capital": {
+    "source": "S3",
+    "as_of": "2025",
+    "kpis": [
+      {
+        "id": "population",
+        "value": 38.6,
+        "suffix": " m",
+        "label": {
+          "uz": "Aholi",
+          "en": "Population",
+          "ru": "Население"
+        }
+      },
+      {
+        "id": "under30",
+        "value": 60,
+        "suffix": "%",
+        "label": {
+          "uz": "aholi 30 yoshgacha",
+          "en": "of population under 30",
+          "ru": "населения младше 30 лет"
+        }
+      },
+      {
+        "id": "median_age",
+        "value": 29,
+        "label": {
+          "uz": "oʻrtacha yosh",
+          "en": "average age",
+          "ru": "средний возраст"
+        }
+      },
+      {
+        "id": "labor_force",
+        "value": 19.5,
+        "suffix": " m",
+        "label": {
+          "uz": "ishchi kuchi",
+          "en": "labour force",
+          "ru": "рабочая сила"
+        }
+      },
+      {
+        "id": "new_entrants",
+        "value": 600000,
+        "suffix": "+",
+        "label": {
+          "uz": "har yili mehnat bozoriga yangi kiruvchilar",
+          "en": "new labour-market entrants per year",
+          "ru": "новых участников рынка труда ежегодно"
+        }
+      },
+      {
+        "id": "students",
+        "value": 1.5,
+        "suffix": " m+",
+        "label": {
+          "uz": "talabalar",
+          "en": "university students",
+          "ru": "студентов вузов"
+        }
+      },
+      {
+        "id": "births",
+        "value": 879600,
+        "label": {
+          "uz": "2025 yilda tugʻilganlar",
+          "en": "births in 2025",
+          "ru": "родившихся в 2025 году"
+        }
+      },
+      {
+        "id": "employment",
+        "value": 70.5,
+        "suffix": "%",
+        "label": {
+          "uz": "bandlik darajasi",
+          "en": "employment rate",
+          "ru": "уровень занятости"
+        }
+      },
+      {
+        "id": "unemployment",
+        "value": 4.8,
+        "suffix": "%",
+        "label": {
+          "uz": "ishsizlik darajasi",
+          "en": "unemployment rate",
+          "ru": "уровень безработицы"
+        }
+      },
+      {
+        "id": "literacy",
+        "value": 99,
+        "suffix": "%",
+        "label": {
+          "uz": "savodxonlik",
+          "en": "literacy rate",
+          "ru": "уровень грамотности"
+        }
+      },
+      {
+        "id": "higher_ed",
+        "value": 47.7,
+        "suffix": "%",
+        "label": {
+          "uz": "oliy taʼlim bilan qamrov",
+          "en": "higher-education enrolment",
+          "ru": "охват высшим образованием"
+        }
+      }
+    ],
+    "note_population": "Economy page gives 38.2m (end of 2025); Demographics page gives 38.6m. Show each with its own label; do not mix."
+  },
+  "regions": {
+    "source": "S3",
+    "salary_unit": "UZS thousand / month",
+    "national_avg_salary": 6376.7,
+    "items": [
+      {
+        "id": "karakalpakstan",
+        "uz": "Qoraqalpogʻiston Respublikasi",
+        "en": "Republic of Karakalpakstan",
+        "ru": "Республика Каракалпакстан",
+        "avg_salary": 5003.1,
+        "profile": {
+          "population_k": 2100,
+          "births_2025_k": 39.3,
+          "employed_k": 805.8,
+          "working_age_k": 1100,
+          "employment_rate": 67.3,
+          "unemployment_rate": 5,
+          "universities": 11,
+          "students_k": 73.7,
+          "specializations": [
+            "Oil & gas",
+            "Chemical industry",
+            "Construction materials",
+            "Textiles",
+            "Agribusiness"
+          ]
+        }
+      },
+      {
+        "id": "andijan",
+        "uz": "Andijon viloyati",
+        "en": "Andijan Region",
+        "ru": "Андижанская область",
+        "avg_salary": 5238.6
+      },
+      {
+        "id": "bukhara",
+        "uz": "Buxoro viloyati",
+        "en": "Bukhara Region",
+        "ru": "Бухарская область",
+        "avg_salary": 5093.1
+      },
+      {
+        "id": "jizzakh",
+        "uz": "Jizzax viloyati",
+        "en": "Jizzakh Region",
+        "ru": "Джизакская область",
+        "avg_salary": 4786
+      },
+      {
+        "id": "kashkadarya",
+        "uz": "Qashqadaryo viloyati",
+        "en": "Kashkadarya Region",
+        "ru": "Кашкадарьинская область",
+        "avg_salary": 4476.7
+      },
+      {
+        "id": "navoi",
+        "uz": "Navoiy viloyati",
+        "en": "Navoiy Region",
+        "ru": "Навоийская область",
+        "avg_salary": 7871.6
+      },
+      {
+        "id": "namangan",
+        "uz": "Namangan viloyati",
+        "en": "Namangan Region",
+        "ru": "Наманганская область",
+        "avg_salary": 4751.3
+      },
+      {
+        "id": "samarkand",
+        "uz": "Samarqand viloyati",
+        "en": "Samarkand Region",
+        "ru": "Самаркандская область",
+        "avg_salary": 4737.6
+      },
+      {
+        "id": "surkhandarya",
+        "uz": "Surxondaryo viloyati",
+        "en": "Surkhandarya Region",
+        "ru": "Сурхандарьинская область",
+        "avg_salary": 4481.8
+      },
+      {
+        "id": "syrdarya",
+        "uz": "Sirdaryo viloyati",
+        "en": "Syrdarya Region",
+        "ru": "Сырдарьинская область",
+        "avg_salary": 5119.1
+      },
+      {
+        "id": "tashkent_region",
+        "uz": "Toshkent viloyati",
+        "en": "Tashkent Region",
+        "ru": "Ташкентская область",
+        "avg_salary": 5967.7
+      },
+      {
+        "id": "fergana",
+        "uz": "Fargʻona viloyati",
+        "en": "Fergana Region",
+        "ru": "Ферганская область",
+        "avg_salary": 4730.2
+      },
+      {
+        "id": "khorezm",
+        "uz": "Xorazm viloyati",
+        "en": "Khorezm Region",
+        "ru": "Хорезмская область",
+        "avg_salary": 5052.4
+      },
+      {
+        "id": "tashkent_city",
+        "uz": "Toshkent shahri",
+        "en": "City of Tashkent",
+        "ru": "город Ташкент",
+        "avg_salary": 10753.8
+      }
+    ],
+    "todo": "Only Karakalpakstan has a full profile in this file. Other regional profiles exist at https://invest.gov.uz/en/reason/demographics (region tabs) — add them only by copying official figures, with source."
+  },
+  "sectors": {
+    "source": "S4",
+    "items": [
+      {
+        "id": "automotive",
+        "url": "https://invest.gov.uz/en/guide/explore/2",
+        "icon": "car",
+        "uz": "Avtomobilsozlik",
+        "en": "Automotive",
+        "ru": "Автомобилестроение"
+      },
+      {
+        "id": "agriculture",
+        "url": "https://invest.gov.uz/en/guide/explore/4",
+        "icon": "wheat",
+        "uz": "Qishloq xoʻjaligi",
+        "en": "Agriculture",
+        "ru": "Сельское хозяйство"
+      },
+      {
+        "id": "construction_materials",
+        "url": "https://invest.gov.uz/en/guide/explore/5",
+        "icon": "brick-wall",
+        "uz": "Qurilish materiallari",
+        "en": "Construction materials",
+        "ru": "Строительные материалы"
+      },
+      {
+        "id": "chemical",
+        "url": "https://invest.gov.uz/en/guide/explore/6",
+        "icon": "flask-conical",
+        "uz": "Kimyo sanoati",
+        "en": "Chemical sector",
+        "ru": "Химическая промышленность"
+      },
+      {
+        "id": "education",
+        "url": "https://invest.gov.uz/en/guide/explore/7",
+        "icon": "graduation-cap",
+        "uz": "Taʼlim",
+        "en": "Education",
+        "ru": "Образование"
+      },
+      {
+        "id": "ai_it",
+        "url": "https://invest.gov.uz/en/guide/explore/15",
+        "icon": "cpu",
+        "uz": "Sunʼiy intellekt va IT",
+        "en": "AI and IT",
+        "ru": "Искусственный интеллект и ИТ"
+      },
+      {
+        "id": "energy",
+        "url": "https://invest.gov.uz/en/guide/explore/8",
+        "icon": "zap",
+        "uz": "Energetika",
+        "en": "Energy",
+        "ru": "Энергетика"
+      },
+      {
+        "id": "finance",
+        "url": "https://invest.gov.uz/en/guide/explore/9",
+        "icon": "landmark",
+        "uz": "Moliyaviy xizmatlar",
+        "en": "Financial services",
+        "ru": "Финансовые услуги"
+      },
+      {
+        "id": "mining",
+        "url": "https://invest.gov.uz/en/guide/explore/10",
+        "icon": "pickaxe",
+        "uz": "Metallurgiya va togʻ-kon",
+        "en": "Metals and mining",
+        "ru": "Металлургия и горнодобыча"
+      },
+      {
+        "id": "pharma",
+        "url": "https://invest.gov.uz/en/guide/explore/11",
+        "icon": "pill",
+        "uz": "Farmatsevtika",
+        "en": "Pharmaceuticals",
+        "ru": "Фармацевтика"
+      }
+    ],
+    "note": "Short sector descriptions are NOT included. Either link to the official sector page or write neutral 1-sentence descriptions without numbers."
+  },
+  "strategy_2030": {
+    "source": "S5",
+    "adopted": "September 2023 (presidential decree)",
+    "goals_total": 100,
+    "summary": {
+      "uz": "“Oʻzbekiston — 2030” strategiyasi: 5 ta ustuvor yoʻnalish boʻyicha 100 ta maqsad, har biri oʻlchanadigan koʻrsatkich, masʼul tashkilot va moliyalashtirish manbasi bilan.",
+      "en": "The “Uzbekistan — 2030” Strategy: 100 goals across 5 priority areas, each with measurable indicators, responsible institutions and funding sources.",
+      "ru": "Стратегия «Узбекистан — 2030»: 100 целей по пяти приоритетным направлениям, каждая с измеримыми показателями, ответственными организациями и источниками финансирования."
+    },
+    "progress_since_adoption": [
+      {
+        "en": "Nominal GDP rose from ~$107.5bn (2023) to ~$140–145bn (2025)",
+        "uz": "Nominal YaIM ~107,5 mlrd $ (2023) dan ~140–145 mlrd $ ga (2025) oʻsdi",
+        "ru": "Номинальный ВВП вырос с ~107,5 млрд $ (2023) до ~140–145 млрд $ (2025)"
+      },
+      {
+        "en": "Unemployment fell from 6.8% to 4.9%",
+        "uz": "Ishsizlik 6,8% dan 4,9% ga tushdi",
+        "ru": "Безработица снизилась с 6,8% до 4,9%"
+      },
+      {
+        "en": "Poverty dropped from 11% to under 7%",
+        "uz": "Kambagʻallik 11% dan 7% dan pastga tushdi",
+        "ru": "Бедность сократилась с 11% до менее чем 7%"
+      }
+    ],
+    "priorities": [
+      {
+        "n": "I",
+        "goals": 44,
+        "uz": "Har bir inson oʻz salohiyatini roʻyobga chiqarishi uchun sharoit yaratish",
+        "en": "Creating conditions for every person to realise their potential",
+        "ru": "Создание условий для реализации потенциала каждого человека"
+      },
+      {
+        "n": "II",
+        "uz": "Barqaror iqtisodiy oʻsish orqali farovonlikni taʼminlash",
+        "en": "Ensuring welfare through sustainable economic growth",
+        "ru": "Обеспечение благосостояния через устойчивый экономический рост",
+        "targets_en": [
+          "GDP to $240bn",
+          "Attract more than $150bn in foreign investment",
+          "Privatise banks, diversify beyond cotton and gas"
+        ],
+        "targets_uz": [
+          "YaIM ni 240 mlrd $ ga yetkazish",
+          "150 mlrd $ dan ortiq xorijiy investitsiya jalb qilish",
+          "Banklarni xususiylashtirish, paxta va gazga bogʻliqlikni kamaytirish"
+        ],
+        "targets_ru": [
+          "Довести ВВП до 240 млрд $",
+          "Привлечь более 150 млрд $ иностранных инвестиций",
+          "Приватизировать банки, снизить зависимость от хлопка и газа"
+        ]
+      },
+      {
+        "n": "III",
+        "uz": "Suv resurslarini tejash va atrof-muhitni muhofaza qilish",
+        "en": "Conserving water resources and protecting the environment",
+        "ru": "Бережное отношение к водным ресурсам и охрана окружающей среды",
+        "targets_en": [
+          "Renewable energy capacity to 25,000 MW",
+          "Double energy efficiency"
+        ],
+        "targets_uz": [
+          "Qayta tiklanuvchi energiya quvvatini 25 000 MVt ga yetkazish",
+          "Energiya samaradorligini ikki barobar oshirish"
+        ],
+        "targets_ru": [
+          "Довести мощность возобновляемой энергетики до 25 000 МВт",
+          "Удвоить энергоэффективность"
+        ]
+      },
+      {
+        "n": "IV",
+        "uz": "Qonun ustuvorligi va “xalqqa xizmat qiluvchi” davlat boshqaruvi",
+        "en": "Rule of law and public administration “at the service of the people”",
+        "ru": "Верховенство закона и государственное управление «на службе народа»"
+      },
+      {
+        "n": "V",
+        "uz": "Xavfsiz va tinchliksevar davlat",
+        "en": "Building a safe and peace-loving state",
+        "ru": "Построение безопасного и миролюбивого государства",
+        "targets_en": [
+          "Ease visa access",
+          "Join the WTO"
+        ],
+        "targets_uz": [
+          "Viza rejimini soddalashtirish",
+          "Jahon savdo tashkilotiga aʼzo boʻlish"
+        ],
+        "targets_ru": [
+          "Упростить визовый режим",
+          "Вступить во Всемирную торговую организацию"
+        ]
+      }
+    ],
+    "verify_note": "GDP 2030 target: invest.gov.uz strategy page says $240bn; EXPO 2025 Uzbekistan page says 'double GDP to $200bn'. Use invest.gov.uz wording and flag in report.",
+    "verify": true,
+    "adopted_uz": "2023 yil sentabr (prezident farmoni)",
+    "adopted_ru": "Сентябрь 2023 года (указ президента)",
+    "adopted_en": "September 2023 (presidential decree)"
+  },
+  "tiif_2026": {
+    "source": "S6",
+    "name": {
+      "uz": "Toshkent xalqaro investitsiya forumi 2026",
+      "en": "Tashkent International Investment Forum 2026",
+      "ru": "Ташкентский международный инвестиционный форум 2026"
+    },
+    "edition": "5th anniversary",
+    "first_held": 2022,
+    "dates": "2026-06-16/2026-06-18",
+    "status": "past",
+    "city": "Tashkent",
+    "stats": [
+      {
+        "id": "agreements",
+        "value": 43.1,
+        "prefix": "$",
+        "suffix": " bn",
+        "label": {
+          "uz": "investitsiya kelishuvlari",
+          "en": "investment agreements",
+          "ru": "инвестиционных соглашений"
+        }
+      },
+      {
+        "id": "countries",
+        "value": 100,
+        "label": {
+          "uz": "davlat",
+          "en": "countries",
+          "ru": "стран"
+        }
+      },
+      {
+        "id": "gov_delegations",
+        "value": 76,
+        "label": {
+          "uz": "hukumat delegatsiyasi",
+          "en": "government delegations",
+          "ru": "правительственных делегаций"
+        }
+      },
+      {
+        "id": "intl_participants",
+        "value": 3802,
+        "label": {
+          "uz": "xalqaro ishtirokchi",
+          "en": "international participants",
+          "ru": "международных участников"
+        }
+      },
+      {
+        "id": "attendees",
+        "value": 10400,
+        "suffix": "+",
+        "label": {
+          "uz": "umumiy ishtirokchi",
+          "en": "attendees",
+          "ru": "участников всего"
+        }
+      },
+      {
+        "id": "ifi_reps",
+        "value": 370,
+        "suffix": "+",
+        "label": {
+          "uz": "XMI/DFI vakillari",
+          "en": "IFI / DFI representatives",
+          "ru": "представителей МФИ и институтов развития"
+        }
+      },
+      {
+        "id": "ifi_assets",
+        "value": 42,
+        "prefix": "$",
+        "suffix": " tn",
+        "label": {
+          "uz": "ishtirokchi XMI umumiy aktivlari",
+          "en": "combined assets of IFI participants",
+          "ru": "совокупные активы участвовавших МФИ"
+        }
+      }
+    ],
+    "notable_attendees_text_only": [
+      "BlackRock",
+      "JPMorgan Chase",
+      "Visa",
+      "Masdar",
+      "Airbus",
+      "Meta",
+      "EBRD",
+      "EIB",
+      "ADB",
+      "IFC"
+    ],
+    "official_site": "https://tiif.online/",
+    "agency_page": "https://invest.gov.uz/en/tiif-2026",
+    "note": "Third-party names as TEXT ONLY — no logos."
+  },
+  "sez_and_incentives": {
+    "sources": [
+      "S7",
+      "S8",
+      "S9"
+    ],
+    "legal_basis": {
+      "text": "Law “On Special Economic Zones” No. LRU-604 (17.02.2020)",
+      "url": "https://lex.uz"
+    },
+    "points": [
+      {
+        "uz": "SIZ ishtirokchilari yer soligʻi, mulk soligʻi (yuridik shaxslar) va suv resurslaridan foydalanganlik soligʻidan ozod qilinadi (roʻyxatdagi zonalar uchun)",
+        "en": "Participants of listed zones are exempt from land tax, property tax (legal entities) and water-use tax",
+        "ru": "Участники СЭЗ освобождаются от земельного налога, налога на имущество (для юридических лиц) и налога за пользование водными ресурсами (для зон из установленного перечня)",
+        "source": "S7"
+      },
+      {
+        "uz": "Import qilinadigan tovarlar boʻyicha QQS toʻlovini 120 kungacha kechiktirish huquqi",
+        "en": "Right to defer import VAT for up to 120 days",
+        "ru": "Право на отсрочку уплаты НДС при импорте товаров на срок до 120 дней",
+        "source": "S7"
+      },
+      {
+        "uz": "2026 yil 1 apreldan SIZ rezidentligini olganlar uchun foyda soligʻi imtiyozi — investitsiya hajmiga qarab asosiy vositalarni tezlashtirilgan amortizatsiya qilish huquqi (avvalgi toʻliq ozod qilish oʻrniga)",
+        "en": "From 1 April 2026, new SEZ residents get the CIT incentive as accelerated depreciation (based on investment size) instead of a CIT exemption",
+        "ru": "С 1 апреля 2026 года для новых резидентов СЭЗ льгота по налогу на прибыль предоставляется в форме ускоренной амортизации основных средств в зависимости от объёма инвестиций (вместо прежнего освобождения)",
+        "source": "S8"
+      },
+      {
+        "uz": "Imtiyozlar zona, faoliyat turi va investitsiya hajmiga bogʻliq",
+        "en": "Incentives depend on the zone, activity and investment volume",
+        "ru": "Льготы зависят от зоны, вида деятельности и объёма инвестиций",
+        "source": "S9"
+      }
+    ],
+    "zone_types_en": [
+      "Free economic zones",
+      "Special industrial zones",
+      "Pharmaceutical zones",
+      "Tourist/recreational zones",
+      "Science & technology zones"
+    ],
+    "disclaimer": {
+      "uz": "Maʼlumot umumiy xarakterga ega va soliq yoki huquqiy maslahat emas. Amaldagi qonunchilikni lex.uz va soliq.uz orqali tekshiring.",
+      "en": "General information only, not tax or legal advice. Check current legislation at lex.uz and the Tax Committee.",
+      "ru": "Информация носит общий характер и не является налоговой или юридической консультацией. Проверяйте действующее законодательство на lex.uz и на сайте Налогового комитета."
+    },
+    "optional_tifc": {
+      "verify": true,
+      "source": "S10",
+      "en": "Tashkent International Financial Centre (TIFC) — planned to operate under English law with its own regulator and commercial court. Use only as a short ‘news’ mention after verifying on official sources.",
+      "uz": "Toshkent xalqaro moliya markazi (TIFC) — ingliz huquqi asosida, oʻz regulyatori va tijorat sudi bilan ishlashi rejalashtirilgan. Faqat rasmiy manbalarda tekshirilgandan soʻng, qisqa “yangilik” sifatida ishlatilsin.",
+      "ru": "Ташкентский международный финансовый центр (TIFC) — планируется, что он будет работать по английскому праву, с собственным регулятором и коммерческим судом. Использовать только как короткое «новостное» упоминание и только после проверки по официальным источникам."
+    },
+    "zone_types_uz": [
+      "Erkin iqtisodiy zonalar",
+      "Maxsus sanoat zonalari",
+      "Farmatsevtika zonalari",
+      "Turistik-rekreatsion zonalar",
+      "Ilmiy-texnologik zonalar"
+    ],
+    "zone_types_ru": [
+      "Свободные экономические зоны",
+      "Специальные промышленные зоны",
+      "Фармацевтические зоны",
+      "Туристско-рекреационные зоны",
+      "Научно-технологические зоны"
+    ]
+  },
+  "investor_journey": [
+    {
+      "step": 1,
+      "uz": "Murojaat",
+      "en": "Enquiry",
+      "ru": "Обращение",
+      "desc_uz": "Agentlikka forma yoki email orqali murojaat",
+      "desc_en": "Contact the Agency via form or email",
+      "desc_ru": "Обращение в Агентство через форму или по электронной почте"
+    },
+    {
+      "step": 2,
+      "uz": "Maslahat va tahlil",
+      "en": "Advice & analysis",
+      "ru": "Консультация и анализ",
+      "desc_uz": "Tarmoq maʼlumotlari va investitsiya shartlari",
+      "desc_en": "Sector data and investment conditions",
+      "desc_ru": "Отраслевые данные и условия инвестирования"
+    },
+    {
+      "step": 3,
+      "uz": "Joy tanlash",
+      "en": "Site selection",
+      "ru": "Выбор площадки",
+      "desc_uz": "Hudud, yer yoki SIZ boʻyicha yordam",
+      "desc_en": "Help with region, land or SEZ",
+      "desc_ru": "Помощь с регионом, земельным участком или СЭЗ"
+    },
+    {
+      "step": 4,
+      "uz": "Uchrashuvlar",
+      "en": "Meetings",
+      "ru": "Встречи",
+      "desc_uz": "Davlat organlari va mahalliy hamkorlar bilan",
+      "desc_en": "With government bodies and local partners",
+      "desc_ru": "С государственными органами и местными партнёрами"
+    },
+    {
+      "step": 5,
+      "uz": "Qoʻllab-quvvatlash",
+      "en": "Aftercare",
+      "ru": "Сопровождение",
+      "desc_uz": "Muammolarni tezkor hal qilish va loyiha monitoringi",
+      "desc_en": "Prompt issue resolution and project monitoring",
+      "desc_ru": "Оперативное решение вопросов и мониторинг проекта"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "uz": "Agentlik tashkil etildi",
+      "en": "Agency established",
+      "source": "S1",
+      "ru": "Создано Агентство"
+    },
+    {
+      "year": 2020,
+      "uz": "“Maxsus iqtisodiy zonalar toʻgʻrisida”gi qonun qabul qilindi",
+      "en": "Law on Special Economic Zones adopted",
+      "source": "S9",
+      "ru": "Принят Закон «О специальных экономических зонах»"
+    },
+    {
+      "year": 2022,
+      "uz": "Birinchi Toshkent xalqaro investitsiya forumi",
+      "en": "First Tashkent International Investment Forum",
+      "source": "S6",
+      "ru": "Первый Ташкентский международный инвестиционный форум"
+    },
+    {
+      "year": 2023,
+      "uz": "“Oʻzbekiston — 2030” strategiyasi qabul qilindi",
+      "en": "“Uzbekistan — 2030” Strategy adopted",
+      "source": "S5",
+      "ru": "Принята стратегия «Узбекистан — 2030»"
+    },
+    {
+      "year": 2025,
+      "uz": "YaIM oʻsishi 7,7%, xorijiy investitsiyalar $43,1 mlrd",
+      "en": "GDP growth 7.7%, foreign investment $43.1bn",
+      "source": "S2",
+      "ru": "Рост ВВП 7,7%, иностранные инвестиции 43,1 млрд $"
+    },
+    {
+      "year": 2026,
+      "uz": "TIIF 5-yubiley forumi: $43,1 mlrd kelishuvlar",
+      "en": "TIIF 5th anniversary: $43.1bn in agreements",
+      "source": "S6",
+      "ru": "Юбилейный, пятый ТМИФ: соглашения на 43,1 млрд $"
+    },
+    {
+      "year": 2030,
+      "uz": "Strategiya maqsadlari ufqi",
+      "en": "Strategy target horizon",
+      "source": "S5",
+      "ru": "Горизонт целей стратегии"
+    }
+  ],
+  "faq": [
+    {
+      "q_en": "What does the Agency do for investors?",
+      "a_en": "It acts as a One-Stop-Shop: information, site selection, meetings with government and business, sector reports and aftercare.",
+      "q_uz": "Agentlik investorlar uchun nima qiladi?",
+      "a_uz": "Yagona darcha sifatida: maʼlumot, joy tanlash, davlat va biznes bilan uchrashuvlar, tarmoq hisobotlari va keyingi qoʻllab-quvvatlash.",
+      "source": "S1",
+      "q_ru": "Что Агентство делает для инвесторов?",
+      "a_ru": "Работает по принципу единого окна: информация, подбор площадки, встречи с государством и бизнесом, отраслевые отчёты и последующее сопровождение."
+    },
+    {
+      "q_en": "Which sectors are prioritised?",
+      "a_en": "Automotive, agriculture, construction materials, chemicals, education, AI & IT, energy, financial services, metals & mining, pharmaceuticals.",
+      "q_uz": "Qaysi sektorlar ustuvor?",
+      "a_uz": "Avtomobilsozlik, qishloq xoʻjaligi, qurilish materiallari, kimyo, taʼlim, SI va IT, energetika, moliya, metallurgiya va togʻ-kon, farmatsevtika.",
+      "source": "S4",
+      "q_ru": "Какие отрасли приоритетны?",
+      "a_ru": "Автомобилестроение, сельское хозяйство, строительные материалы, химия, образование, ИИ и ИТ, энергетика, финансовые услуги, металлургия и горнодобыча, фармацевтика."
+    },
+    {
+      "q_en": "Are there special economic zones?",
+      "a_en": "Yes. SEZ participants can receive tax and customs incentives depending on the zone and investment size; rules changed from 1 April 2026.",
+      "q_uz": "Maxsus iqtisodiy zonalar bormi?",
+      "a_uz": "Ha. Zona va investitsiya hajmiga qarab soliq va bojxona imtiyozlari mavjud; qoidalar 2026 yil 1 apreldan oʻzgargan.",
+      "source": "S8",
+      "q_ru": "Есть ли специальные экономические зоны?",
+      "a_ru": "Да. Участники СЭЗ могут получать налоговые и таможенные льготы в зависимости от зоны и объёма инвестиций; с 1 апреля 2026 года правила изменились."
+    },
+    {
+      "q_en": "How can I contact the Agency?",
+      "a_en": "Phone +998 71 202-02-10, email uzipa@invest.gov.uz, office at 13 Amir Temur St., Tashkent.",
+      "q_uz": "Agentlik bilan qanday bogʻlanaman?",
+      "a_uz": "Tel.: +998 71 202-02-10, email: uzipa@invest.gov.uz, manzil: Toshkent, Amir Temur koʻch., 13.",
+      "source": "S1",
+      "q_ru": "Как связаться с Агентством?",
+      "a_ru": "Телефон +998 71 202-02-10, эл. почта uzipa@invest.gov.uz, офис: г. Ташкент, ул. Амира Темура, 13."
+    },
+    {
+      "q_en": "Where do the figures on this site come from?",
+      "a_en": "From invest.gov.uz and other official sources listed in the footer, with the date of each figure.",
+      "q_uz": "Saytdagi raqamlar qayerdan olingan?",
+      "a_uz": "invest.gov.uz va footer’da koʻrsatilgan boshqa rasmiy manbalardan, har birining sanasi bilan.",
+      "source": "S2",
+      "q_ru": "Откуда взяты цифры на этом сайте?",
+      "a_ru": "С invest.gov.uz и из других официальных источников, перечисленных в футере, с указанием даты каждой цифры."
+    }
+  ],
+  "useful_links": [
+    {
+      "label": "Invest Uzbekistan",
+      "url": "https://invest.gov.uz"
+    },
+    {
+      "label": "Ministry of Investment, Industry and Trade",
+      "url": "https://gov.uz/en/miit"
+    },
+    {
+      "label": "National Statistics Committee",
+      "url": "https://stat.uz"
+    },
+    {
+      "label": "Central Bank of Uzbekistan",
+      "url": "https://cbu.uz"
+    },
+    {
+      "label": "Legislation (lex.uz)",
+      "url": "https://lex.uz"
+    },
+    {
+      "label": "Tax Committee",
+      "url": "https://www.gov.uz/soliq"
+    },
+    {
+      "label": "Customs tariff",
+      "url": "https://tarif.customs.uz"
+    },
+    {
+      "label": "TIIF",
+      "url": "https://tiif.online/"
+    }
+  ],
+  "live_data": {
+    "fx": {
+      "endpoint": "https://cbu.uz/uz/arkhiv-kursov-valyut/json/",
+      "currencies": [
+        "USD",
+        "EUR",
+        "RUB",
+        "CNY"
+      ],
+      "fallback": {
+        "note": "Rates as published by the Central Bank of Uzbekistan on the date below, in UZS per 1 unit. Used only when the live CBU request fails; the UI always shows this date alongside the figures.",
+        "source": "cbu.uz",
+        "date": "2026-09-19",
+        "rates": {
+          "USD": 11839.59,
+          "EUR": 13569.35,
+          "RUB": 140.42,
+          "CNY": 1767.71
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Invest Uzbekistan — About the Agency",
+      "url": "https://invest.gov.uz/en/about",
+      "accessed": "2026-09-21",
+      "type": "official"
+    },
+    {
+      "id": "S2",
+      "title": "Invest Uzbekistan — Why Uzbekistan: Economy",
+      "url": "https://invest.gov.uz/en/reason/economy",
+      "accessed": "2026-09-21",
+      "type": "official"
+    },
+    {
+      "id": "S3",
+      "title": "Invest Uzbekistan — Demographics and Human Capital",
+      "url": "https://invest.gov.uz/en/reason/demographics",
+      "accessed": "2026-09-21",
+      "type": "official"
+    },
+    {
+      "id": "S4",
+      "title": "Invest Uzbekistan — Explore your sector",
+      "url": "https://invest.gov.uz/en/guide/explore",
+      "accessed": "2026-09-21",
+      "type": "official"
+    },
+    {
+      "id": "S5",
+      "title": "Invest Uzbekistan — Uzbekistan-2030 Strategy",
+      "url": "https://invest.gov.uz/en/reason/strategy",
+      "accessed": "2026-09-21",
+      "type": "official"
+    },
+    {
+      "id": "S6",
+      "title": "Invest Uzbekistan — TIIF 2026",
+      "url": "https://invest.gov.uz/en/tiif-2026",
+      "accessed": "2026-09-21",
+      "type": "official"
+    },
+    {
+      "id": "S7",
+      "title": "PwC Worldwide Tax Summaries — Uzbekistan: Tax credits and incentives",
+      "url": "https://taxsummaries.pwc.com/republic-of-uzbekistan/corporate/tax-credits-and-incentives",
+      "accessed": "2026-09-21",
+      "type": "big4"
+    },
+    {
+      "id": "S8",
+      "title": "EY — Uzbekistan: tax updates effective from 2026",
+      "url": "https://www.ey.com/en_uz/technical/tax-alerts/2026/01/uzbekistan-tax-updates-2026",
+      "accessed": "2026-09-21",
+      "type": "big4"
+    },
+    {
+      "id": "S9",
+      "title": "UNCTAD Investment Policy Hub — Law on Special Economic Zones",
+      "url": "https://investmentpolicy.unctad.org/investment-policy-monitor/measures/3492/uzbekistan-law-on-special-economic-zones-adopted",
+      "accessed": "2026-09-21",
+      "type": "international"
+    },
+    {
+      "id": "S10",
+      "title": "Pivot.uz — Financial free zones (secondary, verify)",
+      "url": "https://pivot.uz/uzbekistan-creates-two-financial-free-zones-with-english-law-and-tax-breaks-until-2100/",
+      "accessed": "2026-09-21",
+      "type": "media"
+    }
+  ]
+}

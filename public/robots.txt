@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# A Sitemap directive must be an absolute URL, which is not known at build time.
+# Add one for your deploy host, e.g.:
+#   Sitemap: https://example.com/sitemap.xml

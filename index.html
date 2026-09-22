@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Invest in Uzbekistan — Investitsiyalarni jalb qilish agentligi</title>
+    <meta
+      name="description"
+      content="Oʻzbekistonga investitsiya kiritish uchun yagona darcha: makroiqtisodiy koʻrsatkichlar, 10 ustuvor sektor, agentlik xizmatlari va maxsus iqtisodiy zonalar. Konsept/demo loyiha."
+    />
+    <meta name="author" content="Invest Uzbekistan (concept)" />
+
+    <!-- canonical + hreflang are written at runtime from location.origin: the
+         deploy URL is not known at build time, and pointing them at the real
+         invest.gov.uz would misattribute this concept page to the Agency. -->
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="./favicon.ico" sizes="48x48" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta name="theme-color" content="#C68A32" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Invest in Uzbekistan" />
+    <meta property="og:title" content="Invest in Uzbekistan — One-Stop-Shop for foreign investors" />
+    <meta
+      property="og:description"
+      content="Macro indicators, 10 priority sectors, agency services and special economic zones. Concept/demo project — official information: invest.gov.uz"
+    />
+    <meta property="og:image" content="./og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Invest in Uzbekistan — One-Stop-Shop for foreign investors" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "GovernmentOrganization",
+        "name": "Investment Promotion Agency under the Ministry of Investment, Industry and Trade of the Republic of Uzbekistan",
+        "alternateName": "Invest Uzbekistan",
+        "url": "https://invest.gov.uz",
+        "foundingDate": "2019",
+        "description": "A One-Stop-Shop helping foreign investors identify and realise business opportunities in Uzbekistan.",
+        "disambiguatingDescription": "This page is an independent concept/demo rendering. It is not operated by the Agency. Official information: https://invest.gov.uz",
+        "telephone": "+998712020210",
+        "email": "uzipa@invest.gov.uz",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "13 Amir Temur St.",
+          "addressLocality": "Tashkent",
+          "addressCountry": "UZ"
+        },
+        "areaServed": { "@type": "Country", "name": "Uzbekistan" }
+      }
+    </script>
+
+    <!-- Theme is resolved before first paint so the page never flashes the wrong surface. -->
+    <script>
+      (() => {
+        try {
+          const stored = localStorage.getItem('iu-theme');
+          const theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light';
+          document.documentElement.dataset.theme = theme;
+          const lang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('iu-lang');
+          if (lang === 'uz' || lang === 'ru' || lang === 'en') document.documentElement.lang = lang;
+        } catch {
+          /* private mode — fall back to the markup defaults */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 2rem; font-family: system-ui, sans-serif">
+        <h1>Invest in Uzbekistan</h1>
+        <p>
+          Ushbu sahifa JavaScript talab qiladi. Rasmiy maʼlumot uchun:
+          <a href="https://invest.gov.uz" rel="noopener noreferrer">invest.gov.uz</a>
+        </p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
