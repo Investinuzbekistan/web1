@@ -21,7 +21,8 @@ generated at runtime or at build time:
 | Rotating globe | Site 2, prologue | three.js — a generated lat/long wireframe, a marker over Tashkent and great-circle arcs. No texture, no model |
 | Arc fallback | Site 2, prologue | Inline SVG ellipses, shown when WebGL is unavailable or motion is reduced |
 | Silk Road corridor | Site 2, chapter I | A hand-authored schematic SVG path. Diagrammatic, not a map — it makes no territorial claim |
-| Population dot field | Site 2, chapter III | Canvas, one dot per 100 000 people, count derived from `content.json` |
+| Project beeswarm | Site 2, chapter IV | Inline SVG, one dot per project on a logarithmic investment axis, packed in code from `forum-2026.json` |
+| Thematic direction icons | Site 2, chapter III | Eight glyphs drawn by hand on one 24-unit grid in `ThemeIcon.vue` |
 | Film grain | Site 2 | An inline `feTurbulence` SVG data URI at 3.5% opacity |
 | Region choropleth | Site 3, map | d3-geo, over the boundary data below |
 
@@ -76,14 +77,34 @@ opened read-only and every derived asset is written to `brand/`. Provenance,
 extraction method and the colours measured from it are documented in
 `brand/LOGO_INVENTORY.md`.
 
-The State Emblem of the Republic of Uzbekistan appears in one of the supplied
-logo families. It is **not extracted and not used anywhere**: this is a
-concept/demo project and must not carry state insignia.
+The State Emblem of the Republic of Uzbekistan appears in two of the supplied
+families. It is **not extracted from the agency artwork** (`logo/invest Uzb 2.*`):
+those pages are a concept rendering and must not carry state insignia.
+
+The emblem is also part of the Tourism Investment Forum lockup the organiser
+issued (`brand/newlogo/`). That file is extracted, because it is the client's own
+event mark, and `brand/svg/forum-lockup.svg` and `forum-emblem.svg` are built from
+it — but **site 2 does not use them**. The site is built on the emblem-free
+`forum-wordmark`, so nothing on the page carries state insignia. Switching to the
+full lockup is a one-line change in `SiteChrome.vue` and `ChPrologue.vue` if the
+client asks for it.
 
 ## Third-party organisations
 
 Names of organisations that took part in TIIF 2026 appear as **text only**, from
 `content.json`. No third-party logos, wordmarks or brand colours are used.
+
+## Client source material
+
+The Tourism Investment Forum content on site 2 comes from documents supplied by
+the organiser for this project: the forum concept, the preliminary programme, and
+the regional investment project one-pagers. They are read by
+`scripts/build-forum-data.mjs` and are **not redistributed** — the originals stay
+out of the repository and only the parsed facts are published.
+
+The regional source material also contains initiator names, personal mobile
+numbers, taxpayer identification numbers and bank details. **None of it is carried
+into `forum-2026.json` or onto the page.**
 
 ## Data sources
 

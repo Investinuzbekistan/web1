@@ -17,6 +17,12 @@
   --brand-gold-to: #ECC37E;
   --brand-gold-text: #A46A00;      /* derived: AA on white */
 
+  /* Tourism Investment Forum 2026 — event identity, site 2 */
+  --brand-forum-from: #E4BB7D;
+  --brand-forum-mid: #D2A156;
+  --brand-forum-to: #C18429;
+  --brand-forum-text: #A56A00;     /* derived: AA on white */
+
   /* Neutrals */
   --brand-white: #FFFFFF;
   --brand-paper: #F7F8FA;
@@ -26,6 +32,7 @@
   /* Gradients (bottom-left -> top-right, as in the original artwork) */
   --brand-gradient-line: linear-gradient(to top right, #00AA95, #006FB9);
   --brand-gradient-gold: linear-gradient(to top right, #C68A32, #ECC37E);
+  --brand-gradient-forum: linear-gradient(to top right, #E4BB7D, #C18429);
 
   /* Logo usage */
   --logo-safe-area: 0.25em;  /* >= 25% of the mark height on every side */
