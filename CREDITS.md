@@ -177,6 +177,36 @@ from a third-party CDN at runtime.
 | Space Grotesk | SIL Open Font License 1.1 | Site 2 (archived copy) — body |
 | IBM Plex Sans | SIL Open Font License 1.1 | Site 3 — interface |
 | IBM Plex Mono | SIL Open Font License 1.1 | Site 3 — figures |
+| Montserrat | SIL Open Font License 1.1 | Site 2 — the forum lockup's own lettering, outlined at build time |
+
+### Montserrat, and how it was identified
+
+The forum artwork the organiser supplied carries three lines of type —
+*Tourism / Investment / Forum 2026* — with every glyph already converted to
+outlines, so no file in `logo/` names the typeface it was set in. The forum's
+full name has two more words in front of it, and setting those in the site's
+body face put two typefaces inside one piece of lettering.
+
+The face was established by measurement, not by eye. Every glyph of all three
+lines was cut out of the artwork as a connected run of ink, normalised, and
+scored against forty candidate families rendered at the same cap height:
+
+| Line | Closest match | Overlap | Runner-up |
+|---|---|---|---|
+| Tourism | Montserrat Regular | 97.2% | Inter Light, 91.9% |
+| Investment | Montserrat SemiBold | 98.9% | Figtree SemiBold, 91.1% |
+| Forum 2026 | Montserrat Regular | 97.3% | Red Hat Display Regular, 87.6% |
+
+Montserrat's own metrics then confirmed it: a cap height of 700/1000 puts the
+artwork at 60.04 units, at which Montserrat sets "Forum 2026" within half a
+percent of the width it actually occupies.
+
+`brand/fonts/Montserrat-Regular.ttf` is the latin subset served by Google
+Fonts, kept here so `npm run logos` needs no network. `brand/fonts/OFL.txt` is
+the licence it travels under. The font is **not** shipped to the browser:
+`scripts/lib/forum-title.mjs` converts the one line to outlines at build time
+and it becomes part of the lockup's vector artwork, which is what the OFL's
+terms are written to allow.
 
 Note on site 3: IBM Plex places the Uzbek apostrophes `ʻ` (U+02BB) and `ʼ`
 (U+02BC) on a 0.6em advance, which splits every word containing one. A
