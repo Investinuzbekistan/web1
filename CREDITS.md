@@ -105,8 +105,10 @@ Site 2 draws the same boundaries in chapter IV. It does not ship the GeoJSON:
 standard parallels 38.5°/44.5°, central meridian 66°E) into flat SVG paths in a
 1000 × 560 box, with a label point per region found by pole-of-inaccessibility
 search. 49 KB → 33 KB, and no projection library in the browser. The same ODbL
-terms apply to that derived file; site 2 credits it under the map as well as in
-its footer.
+terms apply to that derived file. The credit used to be printed under the map
+as well as in the footer; the line under the map came off at the client's
+request, so the footer's is now the only one and it names the region map as
+well as the globe.
 
 The title card draws the national outline from the same release — ADM0 rather
 than ADM1, the same pinned commit — simplified to 277 positions and projected
